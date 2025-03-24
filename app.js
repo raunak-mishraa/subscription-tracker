@@ -11,7 +11,7 @@ import subscriptionRouter from './routes/subscription.routes.js';
 import userRouter from './routes/user.routes.js';
 import authRouter from './routes/auth.routes.js';
 import connectToDatabase from './database/mongodb.js';
-import errorMiddleware from './middleware/error.middleware.js';
+import errorMiddleware from './middlewares/error.middleware.js';
 
 app.use('/api/v1/auth', authRouter);
 app.use('/api/v1/users', userRouter);
